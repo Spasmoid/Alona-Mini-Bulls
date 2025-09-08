@@ -138,6 +138,10 @@
         display: flex;
     }
 
+    .adaptive-menu-button svg{
+        transform: rotate(90deg);
+    }
+
     .main-item {
         width: 380px;
     }
