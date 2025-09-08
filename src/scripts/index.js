@@ -20,6 +20,19 @@
         const aboutBlock = document.getElementsByClassName('advantages')[0];
         const faqBlock = document.getElementsByClassName('faq')[0];
 
+        const adaptiveLinks = document.getElementsByClassName('adaptive-link');
+
+        for (let i = 0; i < adaptiveLinks.length; i++) {
+            adaptiveLinks[i].addEventListener('click', function (e) {
+                e.preventDefault();
+                adaptiveMenuButton.classList.remove('button-active');
+                adaptiveMenuIconTop.style.transform = 'rotateZ(90deg) translate(0, 0)';
+                adaptiveMenuIconBottom.style.transform = 'rotateZ(90deg) translate(0, 0)';
+                adaptiveMenuButton.style.backgroundColor = '#286347';
+                adaptiveMenu.style.transform = 'translateX(420px)';
+            });
+        }
+
         for (let i = 0; i < mainLinks.length; i++) {
             mainLinks[i].addEventListener('click', function (e) {
                 e.preventDefault();
