@@ -73,8 +73,9 @@
     .header {
         background-image: url('../static/images/main-image-cropped.png');
         background-repeat: no-repeat;
-        background-size: 820px;
+        background-size: 820px 470px;
         background-position: center;
+        height: 470px;
     }
 }
 
