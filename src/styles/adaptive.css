@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 449px) {
     .header {
-        background-position: -250px;
+        background-position: -250px -40px;
     }
 
     .faq-accordion-button {
