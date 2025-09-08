@@ -543,6 +543,7 @@ body {
     display: inline;
     width: 35px;
     height: 35px;
+    transform: rotate(90deg);
 }
 
 #line-top {

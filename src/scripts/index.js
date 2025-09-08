@@ -17,7 +17,6 @@
 
         const mainBlock = document.getElementsByClassName('header')[0];
         const galleryBlock = document.getElementsByClassName('gallery')[0];
-        const aboutBlock = document.getElementsByClassName('advantages')[0];
         const faqBlock = document.getElementsByClassName('faq')[0];
 
         const adaptiveLinks = document.getElementsByClassName('adaptive-link');
