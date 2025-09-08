@@ -39,9 +39,6 @@ body {
 @supports (height: 100svh) {
     .header { height: 70svh; }
 }
-@supports (height: 100lvh) {
-    .header { height: 70lvh; }
-}
 
 .header .container {
     display: flex;
