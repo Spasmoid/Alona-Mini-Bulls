@@ -42,7 +42,7 @@
         for (let i = 0; i < aboutLinks.length; i++) {
             aboutLinks[i].addEventListener('click', function (e) {
                 e.preventDefault();
-                aboutBlock.scrollIntoView({behavior: 'smooth'});
+                galleryBlock.scrollIntoView({behavior: 'smooth'});
             });
         }
         for (let i = 0; i < faqLinks.length; i++) {
