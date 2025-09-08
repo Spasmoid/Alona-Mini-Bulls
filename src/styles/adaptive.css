@@ -1,0 +1,268 @@
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1109px) {
+    .advantages .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1029px) {
+    .advantages-heading {
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+
+    .advantages-items {
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 969px) {
+    .advantages-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .header-menu-item a {
+        font-size: 18px;
+    }
+
+    .header .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .language-select {
+        font-size: 16px;
+        width: 120px;
+    }
+
+    .order-button {
+        font-size: 16px;
+        background-size: 20px;
+        padding: 6px 12px 6px 30px;
+    }
+}
+
+
+@media screen and (max-width: 829px) {
+    .language-select {
+        font-size: 0;
+        padding-top: 26px;
+        width: 37px;
+        padding-left: 0;
+    }
+
+    .order-button {
+        font-size: 0;
+        width: 33px;
+        padding: 25px 0 7px 0;
+        display: inline-block;
+        background-size: 22px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .header {
+        background-image: url('../static/images/main-image-cropped.png');
+        background-repeat: no-repeat;
+        background-size: 820px;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .advantages-items {
+        grid-template-columns: repeat(2, 250px);
+        position: relative;
+        right: calc(50% - 200px);
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .main {
+        margin-bottom: 40px;
+    }
+
+    .main-items {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .main-item {
+        padding: 16px 40px;
+        width: 300px;
+    }
+
+    .main-item-icon {
+        margin-bottom: 5px;
+    }
+
+    .gallery .container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .gallery-description-heading {
+        text-align: center;
+    }
+
+    .gallery-description-text {
+        text-align: center;
+    }
+
+    .faq-heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+
+    .header-menu-items-right, .header-menu-items-left, .order-button, .language-select {
+        display: none;
+    }
+
+    .header .container {
+        justify-content: flex-end;
+    }
+
+    .adaptive-menu-button, .adaptive-menu {
+        display: flex;
+    }
+
+    .main-item {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .advantages-items {
+        grid-template-columns: repeat(1, 250px);
+        position: relative;
+        right: calc(50% - 110px);
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .main {
+        margin-bottom: 60px;
+    }
+
+    .gallery .container {
+        gap: 40px;
+    }
+
+    .faq-accordion-button {
+        font-size: 22px;
+    }
+
+    .faq-accordion-button-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-links {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .header {
+        background-position: -250px;
+    }
+
+    .faq-accordion-button {
+        font-size: 18px;
+    }
+
+    .faq-accordion-text {
+        font-size: 16px;
+    }
+
+    .faq-accordion-button {
+        padding: 20px 30px;
+    }
+
+    .faq-heading {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .header .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .advantages-heading {
+        font-size: 30px;
+    }
+
+    .advantages-item-text {
+        font-size: 18px;
+    }
+
+    .main-item-icon svg {
+        width: 77px;
+        height: 77px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .footer-link svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
+
+    .adaptive-menu {
+        align-items: flex-start;
+    }
+
+    .adaptive-menu-action {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .faq-accordion-button-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .faq-accordion-button {
+        padding: 20px 15px;
+    }
+
+    .faq-accordion-text {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .gallery-action-button {
+        max-width: 290px;
+        font-size: 25px;
+        gap: 25px;
+    }
+
+    .gallery-action-button svg {
+        width: 60px;
+        height: 60px;
+    }
+}
